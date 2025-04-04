@@ -169,7 +169,8 @@ button {
   display: flex;
   flex-direction: column;
   color: black;
-  overflow: auto;
+  overflow-y: auto;
+  overflow-x: hidden;
   gap: 10px;
   padding: 10px;
 

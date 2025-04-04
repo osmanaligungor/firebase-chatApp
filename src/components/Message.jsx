@@ -14,7 +14,7 @@ const Message = ({ data }) => {
       <div>
         <span
           style={{
-            color: generateColor(data.author.id),
+            color: generateColor(data.author.id, data.author.name),
           }}
         >
           {data.author.name}
